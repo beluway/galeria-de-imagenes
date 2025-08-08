@@ -9,7 +9,7 @@ body {
 }
 
 .btn-pasar{
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     margin: auto;
@@ -68,4 +68,5 @@ h1#it{
         font-size: large;
         margin-bottom: 20px;
     }
+
 
