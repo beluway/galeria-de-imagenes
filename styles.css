@@ -8,13 +8,21 @@ body {
     height: 400px;
 }
 
-.link-button {
-    text-decoration: none;
+.btn-pasar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 30px;
+    height: 3rem;
+    width: 8rem;
+    font-weight: bolder;
+    font-size:medium;
     color: black;
     border: 1px solid gray;
     background-color: #f2f2f2;
     padding: 5px;
-    border-radius: 5px;
+    border-radius: 8px;
     box-shadow: 2px 3px #888888;
 }
 
@@ -45,3 +53,19 @@ h1#it{
     font-size:3rem;
     color:aliceblue;
 }
+.btn-pasar:hover {
+        background-color: rgb(243, 216, 62); 
+        transform: translateY(-2px);
+        box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+    }
+
+    .volver{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        color: rgb(11, 11, 11);
+        font-weight: bolder;
+        font-size: large;
+        margin-bottom: 20px;
+    }
+
