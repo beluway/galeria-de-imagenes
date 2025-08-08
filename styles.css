@@ -17,3 +17,31 @@ body {
     border-radius: 5px;
     box-shadow: 2px 3px #888888;
 }
+
+body#page3 {
+    background-color: rgb(0, 0, 0);
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+#it-banner{
+    border: 5px solid rgb(207, 207, 207);
+    border-radius: 10px;
+    height: 400px;
+}
+
+p.description{
+    max-width:952px;
+    text-align:justify;
+    color:aliceblue;
+}
+
+h2.description{
+    color:aliceblue;
+}
+
+h1#it{
+    font-size:3rem;
+    color:aliceblue;
+}
